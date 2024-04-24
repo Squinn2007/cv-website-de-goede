@@ -1,0 +1,44 @@
+#title {
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 600%;
+    background-color: aqua;
+
+
+}
+body{
+    background-color: darkblue;
+}
+#contact {
+    margin-left: 70%;
+    width:15%;
+    font-size: 60%;
+    background-color: burlywood;
+}
+#contact:hover {
+    background-color: brown;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-bottom: 100%;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+#motivatiemetfoto {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ervaringspecialiteiten {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#skillsvaardigheden {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
